@@ -1,9 +1,9 @@
 import { HomeScreenDiv, HeaderSite, BlockInfo } from './Home.styled';
-const HomeScreen = () => {
+const Home = () => {
   return (
     <HomeScreenDiv>
       <HeaderSite>РУМ'ЯНИЙ ХЛІБ</HeaderSite>
-      <h1>Phone: +380730000000</h1>
+      <h1>З УКРАЇНОЮ В СЕРЦІ</h1>
       <BlockInfo>
       Хліб усьому голова. Таких правил дотримуються не лише українці, 
       хліб шанують у всьому світі. Пропонуємо вам ознайомитися з 
@@ -12,9 +12,8 @@ const HomeScreen = () => {
       І приблизно половина цього хліба йде на виготовлення бутербродів. 
       Рекордсмени в цій справі французи: вони споживають 67 кг хліба на душу населення на рік. 
       Це – найбільший показник в Европі.
-      </BlockInfo>
-      
+      </BlockInfo>      
     </HomeScreenDiv>
   );
 };
-export default HomeScreen;
+export default Home;

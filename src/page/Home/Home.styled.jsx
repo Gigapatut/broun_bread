@@ -1,7 +1,9 @@
 import styled from 'styled-components';
-import image from './bread.webp';
+import image from '../../img/bread.webp';
 export const HomeScreenDiv = styled.div`
   background-image: url(${image});
+  background-repeat: no-repeat;
+  background-size: cover;
   opacity: 0.9;
 
   width: 1184px;

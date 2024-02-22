@@ -2,12 +2,13 @@ import styled from 'styled-components';
 
 
 
-export const CatalogDiv = styled.div`
-  background: green;
+export const ShopsDiv = styled.div`
+  
+  opacity: 0,8;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 150px;
+  padding-top: 20px;
 
   width: 1184px;
   height: 1050px;

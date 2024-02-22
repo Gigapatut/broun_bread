@@ -1,9 +1,9 @@
-import { AboutScreenDiv, BlockInfo } from './About.styled';
+import { AboutDiv, BlockInfo } from './About.styled';
 
 
 const About = () => {
     return (
-      <AboutScreenDiv>
+      <AboutDiv>
         <h2>ХТО МИ</h2>
         <BlockInfo>
         Никола́ев — город на юге Украины, административный центр Николаевской области, 
@@ -12,7 +12,7 @@ const About = () => {
         кораблестроительной верфи.
         </BlockInfo>
         
-      </AboutScreenDiv>
+      </AboutDiv>
     );
   };
   export default About;

@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import image from '../../img/flag.jpg';
 
 export const Container = styled.div`
   width: 1440px;
@@ -9,7 +10,10 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--white-color);
+  background-image: url(${image});
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
 `;
 export const NavMenu = styled.nav`
   position: sticky;
@@ -24,8 +28,14 @@ export const NavMenu = styled.nav`
   z-index: 100;
   gap: 32px;
   justify-content: center;
-  background-color: var(--white-color);
+  background-color: yellow;
+   
 
   font-size: 18px;
   font-weight: 500;
+  `;
+export const DivLogo = styled.div`
+  position: absolute;
+  left: 150px;
+
 `;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 // import image from './bread.webp';
-export const AboutScreenDiv = styled.div`
+export const AboutDiv = styled.div`
   background: yellow;
   opacity: 0.9;
 
