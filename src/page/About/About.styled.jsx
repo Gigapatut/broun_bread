@@ -3,17 +3,14 @@ import styled from 'styled-components';
 export const AboutDiv = styled.div`
   background: yellow;
   opacity: 0.9;
-
-  width: 1184px;
-  height: 1050px;
-
+  width: 80%;
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  padding-top: 150px;
-
+  padding-top: 40px;
   color: black;
+  margin: 0 auto;
 `;
 
 

@@ -1,16 +1,14 @@
 import {
     ShopsDiv,
   } from './Shops.styled';
-import ProductList from '../../components/ProductList/ProductList';
+import OurStores from "../../components/OurStores/OurStores";
 
 
 const Shops = () => {
     return (
       <ShopsDiv>
-        
-        <h2>ЧИМ БАГАТІ</h2>
-        <ProductList />
-                
+        <h2>НАШІ МАГАЗИНИ</h2>
+        <OurStores />
       </ShopsDiv>
     );
   };

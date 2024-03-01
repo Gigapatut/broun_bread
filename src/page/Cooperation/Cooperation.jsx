@@ -1,12 +1,10 @@
 import {
-    AdvertsUl,
-    AdvertLi,
-    LoadMore,
+    
     CatalogDiv,
   } from './Cooperation.styled';
 
 
-const CooperationScreen = () => {
+const Cooperation = () => {
     return (
       <CatalogDiv>
         <h2>МИ З УКРАЇНИ</h2>
@@ -19,4 +17,4 @@ const CooperationScreen = () => {
       </CatalogDiv>
     );
   };
-  export default CooperationScreen;
+  export default Cooperation;

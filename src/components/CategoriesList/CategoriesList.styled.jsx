@@ -1,15 +1,18 @@
 import styled from 'styled-components';
 
 export const WrapperStyled = styled.div`
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-  flex-wrap: wrap;
-  margin-top: 20px;
-  align-items: center;
+  border: 3px solid #000;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  justify-items: center; 
+  grid-gap: 20px; 
+  
+
+  @media screen and (min-width: 375px) {
+    width: 320px;
+  }
   @media screen and (min-width: 768px) {
-    flex-direction: row;
-    gap: 16px;
+   
   }
   @media screen and (min-width: 1440px) {
     width: 1300px;
@@ -17,17 +20,15 @@ export const WrapperStyled = styled.div`
 `;
 
 export const DivProductItem = styled.div`
-  
-  width: 600px;
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
   border-radius: 12px;
-  background: skyblue;
-  border: 1px solid rgba(239, 237, 232, 0.2);
-  @media screen and (min-width: 768px) {
-    width: 224px;
-  }
-  @media screen and (min-width: 1440px) {
-    width: 237px;
+  background: white;
+  &:hover {
+    background-color: green;
+    color: white;
   }
 `;
 
@@ -40,9 +41,9 @@ padding: 0.5rem 1rem;
 margin: 1rem;
 cursor: pointer;
 border: none;
-outline: none
+outline: none;
 &:hover {
-  background-color: green;
-  color: white;
+  background-color: yellow;
+  color: blue;
 }
 `;
