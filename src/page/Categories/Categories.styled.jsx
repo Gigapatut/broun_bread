@@ -8,8 +8,7 @@ export const CatalogDiv = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 40px;
 
-  width: 1440px;
-  height: 1050px;
+
 `;

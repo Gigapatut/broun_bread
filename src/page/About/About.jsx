@@ -1,10 +1,10 @@
-import { AboutDiv, BlockInfo } from './About.styled';
+import { AboutDiv, BlockInfo} from './About.styled';
 
 
 const About = () => {
     return (
       <AboutDiv>
-        <h2>ХТО МИ</h2>
+        <h1>ХТО МИ</h1>
         <BlockInfo>
         Никола́ев — город на юге Украины, административный центр Николаевской области, 
         Николаевского района и Николаевской городской общины. Один из крупнейших 

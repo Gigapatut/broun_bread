@@ -15,5 +15,14 @@ code {
     monospace;
 }
 
+h1 {
+  font-family: OSEB, sans-serif;
+  text-transform: uppercase;
+  color: #06d510;
+    letter-spacing: 3px;
+    font-size: 80px;
+
+}
+
 
 
